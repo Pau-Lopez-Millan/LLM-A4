@@ -11,10 +11,12 @@ body {
 
 
 h1{
+    font-size: 46px;
     color: red;
 }
 
 h2{
+    font-size: 32;
     color: red;
     margin-top: -20px;
 }
@@ -70,6 +72,124 @@ nav{
     line-height: 1.5;
 }
 
+.contingut{
+    flex: 1;
+    padding: 25px 5% 30px;
+    background-color: white !important;
+}
+.contingut h1{
+    font-size: 42px;
+    font-weight: normal;
+    margin: 0 0 25px;
+    color: black;
+}
+
+.contingut h1 span{
+    color: blue;
+}
+
+.precios table {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 0 0 26%;
+    border: 2px solid white;
+    border-spacing: 0;
+    border-radius: 7px;
+    overflow: hidden;
+    table-layout: fixed;
+    text-align: center;
+    font-size: 12px;
+}
+
+.precios thead {
+    background-color: #4c5e70;
+    color: white;
+}
+
+.precios thead th {
+    height: 48px;
+    padding: 8px 5px;
+    border-right: 1px solid white;
+}
+
+.precios thead th:nth-child(1) {
+    width: 32%;
+}
+
+.precios thead th:nth-child(2) {
+    width: 14%;
+}
+
+.precios thead th:nth-child(3) {
+    width: 43%;
+}
+
+.precios thead th:nth-child(4) {
+    width: 11%;
+    border-right: none;
+}
+
+.precios tbody tr {
+    height: 48px;
+}
+
+.precios tbody th,
+.precios tbody td {
+    padding: 8px 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.precios tbody th {
+    color: black;
+    font-weight: bold;
+}
+
+.precios tbody td {
+    color: #687485;
+}
+
+.precios tbody tr.gris > th,
+.precios tbody tr.gris > td {
+    background-color: #edf1f3;
+}
+
+.precios tbody tr.blanco > th,
+.precios tbody tr.blanco > td {
+    background-color: white;
+}
+
+.precios tbody tr.gris > * {
+    border-bottom: 1px solid white;
+}
+
+.precios tbody tr.blanco > td:not([rowspan]) {
+    border-bottom: 1px solid #ddd;
+}
+
+.precios tbody tr.blanco > th[rowspan],
+.precios tbody tr.blanco > td[rowspan] {
+    border-bottom: none;
+}
+
+.precios tbody td img {
+    width: 28px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.precios tfoot {
+    background-color: #4c5e70;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.precios tfoot td {
+    height: 48px;
+    padding: 10px;
+}
+
 a{
     color: white !important;
 }
@@ -81,5 +201,9 @@ a:hover{
 footer{
     background-color: green;
     padding-left: 30px;
-    margin: -30px 0 0 0 
+    margin: -30px 0 0 0;
+}
+.segon{
+    padding-left: 30px;
+    margin: 0 0 0 0 !important;
 }
