@@ -74,7 +74,7 @@ nav{
 .contingut{
     flex: 1;
     padding: 25px 5% 30px;
-    background-color: white !important;
+    background-color: rgb(226, 225, 225) !important;
 }
 .contingut h1{
     font-size: 42px;
@@ -88,7 +88,7 @@ nav{
     color: blue;
 }
 
-.precios table {
+.precios table{
     width: 800px;
     max-width: 100%;
     margin: 0 0 0 26%;
@@ -101,15 +101,15 @@ nav{
     font-size: 12px;
 }
 
-.precios thead {
-    background-color: #4c5e70;
-    color: white;
+.precios thead{
+    background-color: #4c5e70 !important;
+    color: white !important;
 }
 
-.precios thead th {
+.precios thead th{
     height: 48px;
     padding: 8px 5px;
-    border-right: 1px solid white;
+    border-right: 1px solid white !important;
 }
 
 .precios thead th:nth-child(1) {
@@ -129,34 +129,39 @@ nav{
     border-right: none;
 }
 
-.precios tbody tr {
+.precios tbody tr{
     height: 48px;
 }
 
-.precios tbody th,
-.precios tbody td {
+.precios tbody th{
     padding: 8px 5px;
     text-align: center;
     vertical-align: middle;
-}
-
-.precios tbody th {
-    color: black;
+    color: black !important;
     font-weight: bold;
 }
 
-.precios tbody td {
-    color: #687485;
+.precios tbody td{
+    padding: 8px 5px;
+    text-align: center;
+    vertical-align: middle;
+    color: #687485 !important;
 }
 
-.precios tbody tr.gris > th,
-.precios tbody tr.gris > td {
-    background-color: #edf1f3;
+.precios tbody tr.gris > th{
+    background-color: #edf1f3 !important;
 }
 
-.precios tbody tr.blanco > th,
-.precios tbody tr.blanco > td {
-    background-color: white;
+.precios tbody tr.gris > td{
+    background-color: #edf1f3 !important;
+}
+
+.precios tbody tr.blanc > th{
+    background-color: white !important;
+}
+
+.precios tbody tr.blanc > td{
+    background-color: white !important;
 }
 
 .precios tbody tr.gris > * {
@@ -167,8 +172,11 @@ nav{
     border-bottom: 1px solid #ddd;
 }
 
-.precios tbody tr.blanco > th[rowspan],
-.precios tbody tr.blanco > td[rowspan] {
+.precios tbody tr.blanco > th[rowspan]{
+    border-bottom: none;
+}
+
+.precios tbody tr.blanco > td[rowspan]{
     border-bottom: none;
 }
 
@@ -179,8 +187,8 @@ nav{
 }
 
 .precios tfoot {
-    background-color: #4c5e70;
-    color: white;
+    background-color: #4c5e70 !important;
+    color: white !important;
     font-weight: bold;
     font-style: italic;
 }
@@ -188,6 +196,10 @@ nav{
 .precios tfoot td {
     height: 48px;
     padding: 10px;
+}
+
+.blanc{
+    background-color: white;
 }
 
 a{
