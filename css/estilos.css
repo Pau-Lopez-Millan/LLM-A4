@@ -74,7 +74,7 @@ nav{
 .contingut{
     flex: 1;
     padding: 25px 5% 30px;
-    background-color: gray !important;
+    background-color: lightgray !important;
 }
 .contingut h1{
     font-size: 42px;
