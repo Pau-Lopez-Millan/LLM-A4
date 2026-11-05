@@ -15,7 +15,7 @@ h1{
 }
 
 h2{
-    font-size: 32;
+    font-size: 32px;
     color: red;
     margin-top: -20px;
 }
@@ -74,7 +74,7 @@ nav{
 .contingut{
     flex: 1;
     padding: 25px 5% 30px;
-    background-color: #EBEDEE !important;
+    background-color: rgb(226, 225, 225) !important;
 }
 .contingut h1{
     font-size: 42px;
